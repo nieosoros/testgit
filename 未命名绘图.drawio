@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T09:34:59.128Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="deXsgSeHqShLQJu1WWu6" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-08T02:04:31.910Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="-mYmKZduIuEC5bqNDNrb" version="14.4.3" type="github">
   <diagram id="LzKCAjfdnrJLRXAFVkTU" name="第 1 页">
     <mxGraphModel dx="2692" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -30,6 +30,11 @@
               <mxPoint x="395" y="320" />
               <mxPoint x="395" y="320" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xLDyhPJ_7dhi9ZxxzK5q-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fRdMn5hMYtSSAdjZuWHe-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="143" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fRdMn5hMYtSSAdjZuWHe-9" value="类加载器" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -82,7 +87,7 @@
             <mxPoint x="870" y="385" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fRdMn5hMYtSSAdjZuWHe-25" value="栈帧：&lt;br&gt;局部变量表&lt;br&gt;操作数栈&lt;br&gt;方法出口&lt;br&gt;动态链接" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="fRdMn5hMYtSSAdjZuWHe-25" value="方法1栈帧：&lt;br&gt;局部变量表&lt;br&gt;操作数栈&lt;br&gt;方法出口&lt;br&gt;动态链接" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="660" y="525" width="120" height="110" as="geometry" />
         </mxCell>
         <mxCell id="fRdMn5hMYtSSAdjZuWHe-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -223,6 +228,32 @@
         </mxCell>
         <mxCell id="piR6l-rrSdeLeCwp2bJL-39" value="方法2栈帧" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="450" y="570" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xLDyhPJ_7dhi9ZxxzK5q-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="180" width="570" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="xLDyhPJ_7dhi9ZxxzK5q-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xLDyhPJ_7dhi9ZxxzK5q-5" target="xLDyhPJ_7dhi9ZxxzK5q-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-230" y="310" />
+              <mxPoint x="-230" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xLDyhPJ_7dhi9ZxxzK5q-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xLDyhPJ_7dhi9ZxxzK5q-5" target="xLDyhPJ_7dhi9ZxxzK5q-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xLDyhPJ_7dhi9ZxxzK5q-5" value="BootStrap ClassLoader: 负责加载java.*开头的类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xLDyhPJ_7dhi9ZxxzK5q-6" value="Extension ClassLoader&lt;br&gt;负责加载javax.*的类和存放在jre下的ext的类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="230" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xLDyhPJ_7dhi9ZxxzK5q-8" value="Application ClassLoader&lt;br&gt;负责加载应用程序的类型，classpath下目录的类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="340" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xLDyhPJ_7dhi9ZxxzK5q-15" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei ui&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; letter-spacing: 0.544px ; text-align: justify ; background-color: rgb(255 , 255 , 255)&quot;&gt;当运行一个程序的时候，JVM启动，运行bootstrapclassloader，该ClassLoader加载java核心API（ExtClassLoader和AppClassLoader也在此时被加载），然后调用ExtClassLoader加载扩展API，最后AppClassLoader加载CLASSPATH目录下定义的Class，这就是一个程序最基本的加载流程。&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="420" width="500" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
