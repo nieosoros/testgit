@@ -29,19 +29,19 @@
           <mxGeometry x="230" y="540" width="300" height="220" as="geometry" />
         </mxCell>
         <mxCell id="H5oc_YNKsA5Ml7sMJRuU-11" value="方法区" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="990" width="100" height="50" as="geometry" />
+          <mxGeometry x="100" y="560" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="H5oc_YNKsA5Ml7sMJRuU-13" value="堆" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="1060" width="100" height="50" as="geometry" />
+          <mxGeometry x="100" y="625" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="H5oc_YNKsA5Ml7sMJRuU-17" value="栈" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="560" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="H5oc_YNKsA5Ml7sMJRuU-18" value="程序计数器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="364" y="620" width="100" height="50" as="geometry" />
+          <mxGeometry x="364" y="560" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="H5oc_YNKsA5Ml7sMJRuU-19" value="本地方法栈" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="690" width="100" height="50" as="geometry" />
+          <mxGeometry x="245" y="625" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="H5oc_YNKsA5Ml7sMJRuU-23" value="编 译" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="295" y="70" width="50" height="30" as="geometry" />
